@@ -11,7 +11,7 @@ def find_word(my_list, word):
 			break
 	return (ret_value, index)
 
-inF = open(inFilePath,'r',encoding = "utf-8")
+inF = open(inFilePath,'r')
 wordList = (inF.read()).split()
 
 wordCount = []
