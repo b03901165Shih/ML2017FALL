@@ -11,4 +11,4 @@ for i in range(len(data)):
 	newdata.append((data[i][0]//2,data[i][1]//2,data[i][2]//2))
 outImage.putdata(newdata)
 
-outImage.save('Q2.jpg')
+outImage.save('Q2.png')
