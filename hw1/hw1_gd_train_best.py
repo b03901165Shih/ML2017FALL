@@ -41,7 +41,7 @@ param_list = [2,7,9,14,16]
 model_order = 2
 
 # regulataion parameter lambda
-regulate = 100
+regulate = 0
 
 # reading csv to data
 with open(inFilePath, 'rt',  encoding = 'Big5') as csvfile:
@@ -88,7 +88,7 @@ for i in range(numOfDays):
 		index += 1
 
 # Parameters for GD
-numOfIter = 700000
+numOfIter = 1000000
 ita = 1
 
 # Gradient Descent For Training
